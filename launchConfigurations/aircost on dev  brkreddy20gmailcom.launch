@@ -1,0 +1,20 @@
+{
+  "Name": "aircost on dev / brkreddy20@gmail.com",
+  "ServiceId": "com.ibm.cloudoe.orion.client.deploy",
+  "Params": {
+    "Target": {
+      "Url": "https://api.ng.bluemix.net",
+      "Org": "brkreddy20@gmail.com",
+      "OrgId": "871b1814-4b23-4d3b-96f8-4619e6bdf4ee",
+      "Space": "dev",
+      "SpaceId": "aec22f3c-193f-466b-b680-0bc4701594e4"
+    },
+    "Name": "aircost",
+    "AppId": "99395c37-da45-4d0f-a1bc-f57cab4a88e4",
+    "Timeout": 60
+  },
+  "Url": "http://aircost-85675923-af34-4594-a5a8-1fbbaf7f244d.mybluemix.net",
+  "ManageUrl": "https://console.ng.bluemix.net#/resources/appGuid=99395c37-da45-4d0f-a1bc-f57cab4a88e4&orgGuid=871b1814-4b23-4d3b-96f8-4619e6bdf4ee&spaceGuid=aec22f3c-193f-466b-b680-0bc4701594e4",
+  "Path": "wsgi.py",
+  "Type": "Cloud Foundry"
+}

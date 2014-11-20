@@ -1,0 +1,10 @@
+---
+applications:
+- memory: 256M
+  path: .
+  buildpack: https://github.com/joshuamckenty/heroku-buildpack-python
+  host: aircost-85675923-af34-4594-a5a8-1fbbaf7f244d
+  name: aircost
+  command: python wsgi.py
+  instances: 1
+  url: FabulousPriceFinder9425a10f-b77b-4768-b124-92b5e292cdf4.${target-base}
